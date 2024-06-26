@@ -1,0 +1,9 @@
+fastapi==0.103.0
+asyncio==3.4.3
+uvicorn==0.30.1
+pyinstaller==5.13.2
+https://ms-release.obs.cn-north-4.myhuaweicloud.com/2.2.14/MindSpore/unified/x86_64/mindspore-2.2.14-cp39-cp39-linux_x86_64.whl --trusted-host ms-release.obs.cn-north-4.myhuaweicloud.com -i https://pypi.tuna.tsinghua.edu.cn/simple
+mindnlp==0.3.1
+msimilarities
+loguru
+jieba
