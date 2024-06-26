@@ -13,7 +13,7 @@ module.exports = merge(baseConfig, {
       patterns: [
         {
           from: path.resolve(__dirname, "../src/renderer/assets"),
-          to: path.resolve(__dirname, "../renderer"),
+          to: path.resolve(__dirname, "../public"),
           filter: (source) => {
             return !source.includes("index.html");
           },

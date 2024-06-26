@@ -1,0 +1,41 @@
+.chat-message-item {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.bot-message {
+  justify-content: flex-end;
+}
+
+.user-message {
+  justify-content: flex-start;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ccc; /* 临时背景 */
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.message-text {
+  background-color: #f3f3f3;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 60%;
+  word-wrap: break-word;
+}
+
+.user-message .message-text {
+  background-color: #DCF8C5; /* 用户消息背景颜色 */
+}
+
+.bot-message .message-text {
+  background-color: #ECEFF1; /* 应用回应背景颜色 */
+}

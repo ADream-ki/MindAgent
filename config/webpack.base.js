@@ -8,7 +8,7 @@ module.exports = {
   entry: path.join(__dirname, "../src/renderer/index.tsx"),
   output: {
     filename: "static/js/[name].js",
-    path: path.join(__dirname, "../renderer"),
+    path: path.join(__dirname, "../public"),
     clean: true,
     publicPath: "/",
   },
